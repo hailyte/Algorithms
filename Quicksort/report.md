@@ -8,4 +8,5 @@ Comparisons in QS1	|150,473|2,022,707|25,070,218|298,848,991|3,340,921,728
 Comparisons in QS2	|240,314|2,917,897|34,611,541|402,425,484|4,535,485,128
 
 Using quicksort with the median as the pivot lowers the worst case running time of quicksort to O(n log n), as opposed to O(n^2) when used with the first or last element as the pivot.
+
 But calculating the median itself is already pretty expensive. O(n^2) quicksort happens so rarely that using the O(n) median of medians algorithm to guarantee O(n log n) quicksort isn't worth it.
