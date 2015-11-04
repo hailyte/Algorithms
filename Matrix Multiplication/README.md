@@ -1,4 +1,4 @@
-A matrix multiplication program for part of an Algorithms course project. Implements both the standard brute force algorithm and Strassen's algorithm. Unit tests not included since they were provided by the instructor. *Note: completed October 11, 2015.*
+A matrix multiplication program that implements both the standard brute force algorithm and Strassen's algorithm. Unit tests were provided by the instructor and thus are not included here. *Note: completed October 11, 2015.*
 
 `Matrix.java` creates n x n matrices as 2D arrays and provides methods for multiplication and comparison.
 
